@@ -1,0 +1,45 @@
+.descriptor {
+	color: white;
+	font-weight: bold;
+}
+
+.table_background {
+	background-color: #D3D3D3;
+}
+
+table,td,th {
+	border-collapse: collapse;
+}
+
+
+td {
+	text-align: left;
+}
+
+th.right, td.right {
+    text-align: center;	
+}
+
+th.left {
+	vertical-align: top;
+	color: #8B4513;
+	text-align: left;
+}
+
+.top {
+	color: #100F0F;
+}
+th.left_head{
+	vertical-align: top;
+	text-align: left;
+}
+thead {
+	font-weight: bold;
+} 
+
+section img {
+	width:80px;
+	height:75px;
+	border:2px solid #7D2609
+}
+

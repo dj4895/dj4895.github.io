@@ -1,0 +1,21 @@
+section > h2 {
+	font-family:Optima, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
+	color: #604F41;
+	text-decoration: underline;
+	text-align: center;
+}
+
+section img {
+	position: relative;
+	left: 80px;
+	width: 400px;
+	height:200px;
+	border:10px outset #5D6D7E;
+
+}
+
+section figcaption {
+	position: relative;
+	left: 80px;
+	font-size:1.1em;
+}

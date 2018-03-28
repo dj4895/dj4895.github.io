@@ -1,0 +1,15 @@
+video {
+	margin: 25px 0 0 70px;
+	padding: 5px;
+	border: 10px outset #5D6D7E;
+}
+
+section figcaption{
+	font-size:1.2em;
+	text-align:center;
+	color:white;
+}
+
+.right_aside p {
+	padding-left:5px;
+}

@@ -1,0 +1,252 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+html {
+	background-image: url("../Images/postrockbackground.jpg");
+	background-size:160px;
+	background-repeat: repeat;
+}
+
+.left_img { 
+	float: left; 
+	padding-right: 15px;  
+} 
+
+.right_img {
+	float:right;
+	padding-left: 15px;
+}
+
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 1000px;
+	background-color: gray;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid #7D2609;
+	box-shadow: 0 7px 22px 15px;
+	/*text-align: center;*/
+}
+
+header {
+	background-image: -webkit-linear-gradient(to right, #D5DBDB 33%, #D4E6F1   66%, #212F3D   100%);
+	background-image: -moz-linear-gradient(to right, #D5DBDB 33%, #D4E6F1   66%, #212F3D   100%);
+	background-image: -o-linear-gradient(to right, #D5DBDB 33%, #D4E6F1   66%, #212F3D   100%);
+	background-image: linear-gradient(to right, #D5DBDB 33%, #D4E6F1   66%, #212F3D   100%);
+}
+
+header h2,h3 {
+	font-family: Futura, Impact, Helvetica, Arial, sans-serif;
+	color: #8B4513;
+	font-size: 1.6em;
+	
+}
+
+header h3 {
+	color: #AA692A;
+}
+
+/* Top Navigation menu */
+#nav_menu {
+	clear: left;
+}
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+}
+
+#nav_menu ul li {
+	float: left;
+}
+
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_menu ul ul li ul {
+	position: absolute;
+	left: -101%;
+	top:5px;
+	border-left: 3px solid #7D2609;
+}
+
+#nav_menu ul ul li {
+	float: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 333.3px;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: #565352;
+	color: white;
+}
+#nav_menu ul li a.current {	
+	color: #808943;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #A0522D;
+}
+
+
+/* Left nav bar */
+.left_aside {
+	float: left; 
+	width: 95px;
+	padding: 20px 0;
+	/*margin-top: 10%;*/
+}
+
+#nav_list ul { 
+	list-style: none;
+	width: 110px;
+	border: 5px outset #2E4053;
+	background-color:#DBD6D1;
+}
+
+#nav_list ul a {
+	display: table-cell;
+	vertical-align: left;	
+	font-weight: bold;
+	text-decoration: none;
+	background-color:#DBD6D1;
+	padding: .5em 0 .5em 0; 	
+	color: black;
+}
+
+figcaption {
+	text-align:left;
+	font-size: 0.8em;
+}
+
+/* Middle */
+
+section {
+	float: left;
+	width: 480px;
+	padding:20px 40px 10px 20px;
+	font-family: ‘Gill Sans’, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
+	margin-left: 40px;
+}	
+
+section > h2 {
+	font-family:Optima, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
+	color: #604F41;
+	text-decoration: underline;
+	text-align: center;
+}
+
+/* style classes */
+
+.tab{
+	text-indent: 40px;
+}
+
+.underline{
+	text-decoration:underline;	
+}
+
+
+/* Right aside */
+
+.right_aside {
+	float: right;
+	border: 3px solid #7D2609;
+	background-color:#F9E79F;
+	width: 300px;
+	list-style-position: inside;
+	padding: 20px 0;
+	margin-top:20px;
+	font-size:0.85em;
+	
+}
+
+main a{
+	position: relative;
+}
+.right_aside a:link{
+	color:red;
+}
+
+.right_aside a:visited {
+	color: purple;
+}
+
+.right_aside a:hover{
+	color:blue;
+}
+
+a:active {
+	top: 2px;
+}
+
+
+
+
+
+main:after {
+	display: block;
+	content:"";
+	clear:both;	
+}
+
+/* Footer styling */
+
+footer{
+	text-align:center;
+	font-size:0.825em;
+	background-image: -webkit-linear-gradient(to right, #D5DBDB 33%, #D4E6F1   66%, #212F3D   100%);
+	background-image: -moz-linear-gradient(to right, #D5DBDB 33%, #D4E6F1   66%, #212F3D   100%);
+	background-image: -o-linear-gradient(to right, #D5DBDB 33%, #D4E6F1   66%, #212F3D   100%);
+	background-image: linear-gradient(to right, #D5DBDB 33%, #D4E6F1   66%, #212F3D   100%);
+	
+	
+}
+
+
+footer p{	
+	position:relative;
+	
+}
+
+.line{
+	/* Dividing line: */
+	height:1px;
+	background-color:#7D2609;
+	border-bottom:1px solid #7D2609;
+	margin:0.5em 0;
+	overflow:hidden;
+}
+
+
+
